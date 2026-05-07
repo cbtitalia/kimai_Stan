@@ -1,0 +1,286 @@
+{
+  "timestamp": "2026-05-07T23:07:33.521594",
+  "total_seconds": 109020,
+  "total_formatted": "30h17",
+  "activities": {
+    "Presence-14": {
+      "name": "Presence - Bureau",
+      "duration_seconds": 16380,
+      "duration_formatted": "4h33",
+      "category": "Presence",
+      "color": "#C8E6C9"
+    },
+    "Velo-34": {
+      "name": "Velo - Sorties parcours",
+      "duration_seconds": 8280,
+      "duration_formatted": "2h18",
+      "category": "Velo",
+      "color": "#B2DFDB"
+    },
+    "Presence-16": {
+      "name": "Presence - Support",
+      "duration_seconds": 8160,
+      "duration_formatted": "2h16",
+      "category": "Presence",
+      "color": "#81C784"
+    },
+    "Coding-29": {
+      "name": "Coding Perso - Apprentissage",
+      "duration_seconds": 1500,
+      "duration_formatted": "25min",
+      "category": "Coding",
+      "color": "#FF7043"
+    },
+    "Velo-37": {
+      "name": "Velo - Materiel achat",
+      "duration_seconds": 2400,
+      "duration_formatted": "40min",
+      "category": "Velo",
+      "color": "#26A69A"
+    },
+    "Obsidian-33": {
+      "name": "Obsidian/Doc - Maintenance structure",
+      "duration_seconds": 3900,
+      "duration_formatted": "1h05",
+      "category": "Obsidian",
+      "color": "#FFEE58"
+    },
+    "Homelab-24": {
+      "name": "Homelab - Reseau VPN",
+      "duration_seconds": 5400,
+      "duration_formatted": "1h30",
+      "category": "Homelab",
+      "color": "#4FC3F7"
+    },
+    "Velo-36": {
+      "name": "Velo - Entrainement physique",
+      "duration_seconds": 3000,
+      "duration_formatted": "50min",
+      "category": "Velo",
+      "color": "#4DB6AC"
+    },
+    "Coding-28": {
+      "name": "Coding Perso - Obsidian plugins",
+      "duration_seconds": 4800,
+      "duration_formatted": "1h20",
+      "category": "Coding",
+      "color": "#FFA726"
+    },
+    "Homelab-23": {
+      "name": "Homelab - Serveurs NAS",
+      "duration_seconds": 6000,
+      "duration_formatted": "1h40",
+      "category": "Homelab",
+      "color": "#81D4FA"
+    },
+    "Presence-17": {
+      "name": "Presence - Formation",
+      "duration_seconds": 6600,
+      "duration_formatted": "1h50",
+      "category": "Presence",
+      "color": "#66BB6A"
+    },
+    "Obsidian-32": {
+      "name": "Obsidian/Doc - Dataview dashboards",
+      "duration_seconds": 3300,
+      "duration_formatted": "55min",
+      "category": "Obsidian",
+      "color": "#FFF176"
+    },
+    "Velo-35": {
+      "name": "Velo - Entretien maintenance",
+      "duration_seconds": 3600,
+      "duration_formatted": "1h00",
+      "category": "Velo",
+      "color": "#80CBC4"
+    },
+    "Coding-27": {
+      "name": "Coding Perso - FastAPI",
+      "duration_seconds": 8400,
+      "duration_formatted": "2h20",
+      "category": "Coding",
+      "color": "#FFB74D"
+    },
+    "Obsidian-31": {
+      "name": "Obsidian/Doc - Syntheses archivage",
+      "duration_seconds": 3000,
+      "duration_formatted": "50min",
+      "category": "Obsidian",
+      "color": "#FFF59D"
+    },
+    "Homelab-22": {
+      "name": "Homelab - Infra Docker",
+      "duration_seconds": 7200,
+      "duration_formatted": "2h00",
+      "category": "Homelab",
+      "color": "#B3E5FC"
+    },
+    "Presence-15": {
+      "name": "Presence - Reunions",
+      "duration_seconds": 6300,
+      "duration_formatted": "1h45",
+      "category": "Presence",
+      "color": "#A5D6A7"
+    },
+    "Obsidian-30": {
+      "name": "Obsidian/Doc - Wiki notes",
+      "duration_seconds": 3600,
+      "duration_formatted": "1h00",
+      "category": "Obsidian",
+      "color": "#FFF9C4"
+    },
+    "Coding-26": {
+      "name": "Coding Perso - Python",
+      "duration_seconds": 7200,
+      "duration_formatted": "2h00",
+      "category": "Coding",
+      "color": "#FFCC80"
+    }
+  },
+  "by_category": {
+    "Presence": {
+      "total_seconds": 37440,
+      "total_formatted": "10h24",
+      "activities": [
+        {
+          "name": "Bureau",
+          "duration": "4h33",
+          "color": "#C8E6C9",
+          "id": 14
+        },
+        {
+          "name": "Support",
+          "duration": "2h16",
+          "color": "#81C784",
+          "id": 16
+        },
+        {
+          "name": "Formation",
+          "duration": "1h50",
+          "color": "#66BB6A",
+          "id": 17
+        },
+        {
+          "name": "Reunions",
+          "duration": "1h45",
+          "color": "#A5D6A7",
+          "id": 15
+        }
+      ]
+    },
+    "Velo": {
+      "total_seconds": 17280,
+      "total_formatted": "4h48",
+      "activities": [
+        {
+          "name": "Sorties parcours",
+          "duration": "2h18",
+          "color": "#B2DFDB",
+          "id": 34
+        },
+        {
+          "name": "Materiel achat",
+          "duration": "40min",
+          "color": "#26A69A",
+          "id": 37
+        },
+        {
+          "name": "Entrainement physique",
+          "duration": "50min",
+          "color": "#4DB6AC",
+          "id": 36
+        },
+        {
+          "name": "Entretien maintenance",
+          "duration": "1h00",
+          "color": "#80CBC4",
+          "id": 35
+        }
+      ]
+    },
+    "Coding": {
+      "total_seconds": 21900,
+      "total_formatted": "6h05",
+      "activities": [
+        {
+          "name": "Apprentissage",
+          "duration": "25min",
+          "color": "#FF7043",
+          "id": 29
+        },
+        {
+          "name": "Obsidian plugins",
+          "duration": "1h20",
+          "color": "#FFA726",
+          "id": 28
+        },
+        {
+          "name": "FastAPI",
+          "duration": "2h20",
+          "color": "#FFB74D",
+          "id": 27
+        },
+        {
+          "name": "Python",
+          "duration": "2h00",
+          "color": "#FFCC80",
+          "id": 26
+        }
+      ]
+    },
+    "Obsidian": {
+      "total_seconds": 13800,
+      "total_formatted": "3h50",
+      "activities": [
+        {
+          "name": "Maintenance structure",
+          "duration": "1h05",
+          "color": "#FFEE58",
+          "id": 33
+        },
+        {
+          "name": "Dataview dashboards",
+          "duration": "55min",
+          "color": "#FFF176",
+          "id": 32
+        },
+        {
+          "name": "Syntheses archivage",
+          "duration": "50min",
+          "color": "#FFF59D",
+          "id": 31
+        },
+        {
+          "name": "Wiki notes",
+          "duration": "1h00",
+          "color": "#FFF9C4",
+          "id": 30
+        }
+      ]
+    },
+    "Homelab": {
+      "total_seconds": 18600,
+      "total_formatted": "5h10",
+      "activities": [
+        {
+          "name": "Reseau VPN",
+          "duration": "1h30",
+          "color": "#4FC3F7",
+          "id": 24
+        },
+        {
+          "name": "Serveurs NAS",
+          "duration": "1h40",
+          "color": "#81D4FA",
+          "id": 23
+        },
+        {
+          "name": "Infra Docker",
+          "duration": "2h00",
+          "color": "#B3E5FC",
+          "id": 22
+        }
+      ]
+    }
+  }
+}
