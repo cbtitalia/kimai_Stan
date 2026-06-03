@@ -1,0 +1,45 @@
+services:
+
+  mysql:
+    image: mysql:8.3
+    container_name: kimai_sandbox_mysql
+    environment:
+      MYSQL_DATABASE: kimai_sandbox
+      MYSQL_USER: kimai
+      MYSQL_PASSWORD: SandboxPass2026x
+      MYSQL_ROOT_PASSWORD: SandboxRootPass2026x
+      TZ: Europe/Paris
+    volumes:
+      - kimai_sandbox_mysql:/var/lib/mysql
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  kimai:
+    image: kimai/kimai2:apache
+    container_name: kimai_sandbox_app
+    environment:
+      ADMINMAIL: admin@sandbox.local
+      ADMINPASS: SandboxAdmin2026!
+      APP_SECRET: sandbox_secret_9241cb32c309b0e4a3e872ac69215eddb0c770448b49921fd2e468a67ccd0228
+      DATABASE_URL: mysql://kimai:SandboxPass2026x@mysql/kimai_sandbox?charset=utf8mb4&serverVersion=8.3
+      MAILER_DSN: smtp://cbtitalia@gmail.com:jyxjitqgtildrhla@smtp.gmail.com:587
+      MAILER_FROM: cbtitalia@gmail.com
+      TZ: Europe/Paris
+    ports:
+      - "8056:8001"
+    depends_on:
+      mysql:
+        condition: service_healthy
+    volumes:
+      - kimai_sandbox_data:/opt/kimai/var/data
+      - kimai_sandbox_public:/opt/kimai/public/avatars
+    restart: unless-stopped
+
+volumes:
+  kimai_sandbox_mysql:
+  kimai_sandbox_data:
+  kimai_sandbox_public:
